@@ -1,5 +1,8 @@
 {
-    "version": "1.7",
+    "version": "1.0",
+
+    "update_path": "Sellzap.com.br",
+    "update_path_active": "false",
     
     "disabeldOldMenu": "true",
 
@@ -30,7 +33,7 @@
 
     "waPage": {
         "model": "querySelector",
-        "selector": ["#app > div > div > ._aigs"]
+        "selector": ["#app > div > div ._aigs"]
     },
 
     "two": {
@@ -40,13 +43,12 @@
 
     "menuLateral": {
         "model": "querySelector",
-        "selector": [".two._aigs > div:nth-child(5)"],
-        "disabledLog": true
+        "selector": [".two._aigs > div:nth-child(6)"]
     },
 
     "closeChat": {
         "model": "Element",
-        "selector": "xsknx04"
+        "selector": "x10l6tqk"
     },
 
     "chatListInput": {
@@ -56,122 +58,102 @@
 
     "searchInput": {
         "model": "querySelector",
-        "selector": ["[data-icon='search']"],
-        "disabledLog": true
+        "selector": ["[data-icon='search']"]
     },
 
     "downAba": {
         "model": "querySelector",
-        "selector": ["header > div > div > div > div > span > div > div:nth-child(1)", "header > div._ak0w"],
-        "disabledLog": true
+        "selector": ["header > div > div > div > div > span > div > div:nth-child(1)", "header > div._ak0w"]
     },
 
     "chatListHeader": {
         "model": "querySelector",
-        "selector": ["header > header > div > span > div"],
-        "disabledLog": true
+        "selector": ["header > header > div > span > div"]
     },
 
     "searchCamp": {
         "model": "querySelector",
-        "selector": ["#side > div._ak9t > div"],
-        "disabledLog": true
+        "selector": ["#side > div._ak9t > div"]
     },
 
     "chatName":{
         "model": "querySelector",
-        "selector": ["#main > header > div.xeuugli > div > div"],
-        "disabledLog": true
+        "selector": ["#main > header > div.xeuugli > div > div"]
     },
 
     "menuVertical":{
         "model": "querySelector",
-        "selector": ["#main ._amm9", "#main .x1n2onr6.x1vjfegm.x1cqoux5.x14yy4lh"],
-        "disabledLog": true
+        "selector": ["#main ._amm9", "#main .x1n2onr6.x1vjfegm.x1cqoux5.x14yy4lh"]
     },
 
     "menuHorizontal":{
         "model": "querySelector",
-        "selector": ["#main > header :nth-child(3) div"],
-        "disabledLog": true
+        "selector": ["#main > header :nth-child(3) div"]
     },
 
     "menuFooter": {
         "model": "querySelector",
-        "selector": ["footer ._ak1m"],
-        "disabledLog": true
+        "selector": ["footer ._ak1m"]
     },
 
     "respostaRapida": {
         "model": "querySelector",
-        "selector": ["footer > div"],
-        "disabledLog": true
+        "selector": ["footer > div"]
     },
 
     "footerTextArea": {
         "model": "querySelector",
-        "selector": ["footer div[contenteditable=true]"],
-        "disabledLog": true
+        "selector": ["footer div[contenteditable=true]"]
     },
 
     "mainAudio":{
         "model": "querySelector",
-        "selector": ["footer > div.copyable-area > div"],
-        "disabledLog": true
+        "selector": ["footer > div.copyable-area > div"]
     },
 
     "assChat": {
         "model": "querySelector",
-        "selector": ["#main > div.x1n2onr6.x1vjfegm.x1cqoux5.x14yy4lh"],
-        "disabledLog": true
+        "selector": ["#main > div.x1n2onr6.x1vjfegm.x1cqoux5.x14yy4lh"]
     },
 
     "assInput": {
         "model": "querySelector",
-        "selector": ["._1VZX7 ._3Uu1_, ._ak1r > div"],
-        "disabledLog": true
+        "selector": ["._1VZX7 ._3Uu1_, ._ak1r > div"]
     },
 
     "assBtn": {
         "model": "querySelector",
-        "selector": ["#main > footer > div > div > span > div > div._ak1r > div > div.x9f619.x78zum5.x6s0dn4", "#main > footer > div.copyable-area > div > span > div > div._ak1r > div.x123j3cw"],
-        "disabledLog": true
+        "selector": ["#main > footer > div > div > span > div > div._ak1r > div > div.x9f619.x78zum5.x6s0dn4", "#main > footer > div.copyable-area > div > span > div > div._ak1r > div.x123j3cw"]
     },
 
     "assEmoji": {
         "model": "querySelector",
-        "selector": ["#main > footer > div.copyable-area > div > span > div > div._ak1m > div > button[tabindex='-1']"],
-        "disabledLog": true
+        "selector": ["#main > footer > div.copyable-area > div > span > div > div._ak1m > div > button[tabindex='-1']"]
     },
 
     "assCitacao": {
         "model": "querySelector",
-        "selector": ["#main > footer > div:nth-child(3) > div > div:nth-child(4) > div > div > div > button", "#main > footer > div:nth-child(3) > div > div > span > div > div > div.x9f619 > button"],
-        "disabledLog": true
+        "selector": ["#main > footer > div:nth-child(3) > div > div:nth-child(4) > div > div > div > button", "#main > footer > div:nth-child(3) > div > div > span > div > div > div.x9f619 > button"]
     },
 
     "listMensages": {
         "model": "querySelector",
-        "selector": ["#main > div.x1n2onr6.x1vjfegm.x1cqoux5.x14yy4lh > div > div.x10l6tqk.x13vifvy"],
-        "disabledLog": true
+        "selector": ["#main > div.x1n2onr6.x1vjfegm.x1cqoux5.x14yy4lh > div > div.x10l6tqk.x13vifvy"]
     },
 
     "allMensages": {
         "model": "querySelectorAll",
-        "selector": ["#main div > div[data-id]"],
-        "disabledLog": true
+        "selector": ["#main div > div[data-id]"]
     },
 
     "assistenteChat": {
         "model": "querySelector",
-        "selector": ["#main > footer"],
-        "disabledLog": true
+        "selector": ["#main > footer"]
     },
 
     "trasferidos": {
         "model": "querySelector",
-        "selector": ["#side > div.x1ky8ojb.x78zum5"],
-        "disabledLog": true
+        "selector": ["#side div[tabindex='-1']"]
     },
 
     "notification": {
@@ -181,20 +163,17 @@
 
     "quotedMsg": {
         "model": "querySelector",
-        "selector": ["#main > footer > div:nth-child(3) > div > div:nth-child(4) > div > div > div", "#main > footer > div:nth-child(3) > div > div > span > div > div"],
-        "disabledLog": true
+        "selector": ["#main > footer > div:nth-child(3) > div > div:nth-child(4) > div > div > div", "#main > footer > div:nth-child(3) > div > div > span > div > div"]
     },
 
     "listChats": {
         "model": "querySelector",
-        "selector": ["#pane-side > div > div > div"],
-        "disabledLog": true
+        "selector": ["#pane-side > div > div > div"]
     },
 
     "listChatsUsers": {
         "model": "querySelectorAll",
-        "selector": ["#pane-side > div > div > div div[role='button'] > div"],
-        "disabledLog": true
+        "selector": ["#pane-side > div > div > div > div  div[aria-selected]", "#pane-side > div > div > div div[role='button'] > div"]
     },
 
     "listChatAtendimento": {
@@ -214,8 +193,7 @@
 
     "updateChatList": {
         "model": "querySelector",
-        "selector": ["#side div._ai04 > button"],
-        "disabledLog": true
+        "selector": ["#side div._ai04 > button"]
     },
 
     "useTradutor": {
@@ -241,8 +219,7 @@
 
     "observerFooter": {
         "model": "querySelector",
-        "selector": ["#main > span:nth-child(8)", "#main > :last-child"],
-        "disabledLog": true
+        "selector": ["#main > span:nth-child(8)", "#main > :last-child"]
     },
 
     "observerFooterNewModel": {
@@ -252,12 +229,12 @@
 
     "whatsModal": {
         "model": "querySelector",
-        "selector": ["#app > div > span:nth-child(4)"]
+        "selector": ["#app > div > div > span:nth-child(4)", "#app > div > span:nth-child(4)"]
     },
 
     "menu_whats": {
         "model": "querySelector",
-        "selector": ["#app header > div > div > div > div > span > div > div.xyorhqc", "#app > div > div.x78zum5.xdt5ytf.x5yr21d > div > header > div > div:nth-child(2) > div"]
+        "selector": ["#app > div > div.x78zum5.xdt5ytf.x5yr21d > div > header > div > div:nth-child(2) > div", "header > div > div:nth-child(2) > div"]
     },
 
     "actionMonitor": {
@@ -268,6 +245,23 @@
     "footerIconsLeft":{
         "model": "querySelector",
         "selector": ["#main > footer > div > div > span > div > div._ak1r > div"]
+    },
+
+    "side": {
+        "model": "querySelector",
+        "selector": ["#side"]
+    },
+
+    "chatFiltersContainer": {
+        "model": "listElement",
+        "list": {
+            "div_filters": "_akap _akan _arj9"
+        }
+    },
+
+    "chatFilters": {
+        "model": "querySelectorAll",
+         "selector": ["#side > div:nth-of-type(2) div[role=tab]", "#side > div:nth-of-type(2) button"]
     }
 
 }
